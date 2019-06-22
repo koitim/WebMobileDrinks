@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .container {
+    border: 1px solid blue;
+    padding: 10px;
+    background-image: 
+        url(../images/barman.jpg),
+          url(../images/logo-beers-drinks.png);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: red;
+    background-position: inherit;
+    background-clip: border-box;
+    background-origin: border-box;
+    max-width: 100%;
+    min-height: unset
+    
+} */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, [col] auto);
+    grid-template-rows: repeat(4,[col] auto)
+}
+
+.fundo {
+    position: relative;
+    height: auto;
+    max-width:100%;
+}
+
+.fundo img {
+    height: auto;
+    max-width: 100%;
+ }
+
+.chopp {
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 20%;
+}
+
+.menu {
+    position: absolute;
+    float: right;
+    top: 2%;
+    right: 2%;
+    height: auto;
+    max-width: 100%;
+}
+
+a {
+    color: white;
+}
+
+.textoOpcoes {
+    position: absolute;
+    color: white;
+    float: right;
+    top: 22%;
+    right: 12%;
+    height: auto;
+    max-width: 100%;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.textobottom {
+    position: absolute;
+    color: white;
+    float: center;
+    height: auto;
+    max-width: 100%;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.drink1 {
+    position: absolute;
+    float: left;
+    top: 10%;
+    left: 10%;
+    bottom: 10%;
+    height: auto;
+    max-width: 100%;
+}
+
+.drink2 {
+    position: absolute;
+    float: center;
+    top: 10%;
+    bottom: 10%;
+    height: auto;
+    max-width: 100%;
+}
+
+.drink3 {
+    position: absolute;
+    float: right;
+    top: 10%;
+    right: 10%;
+    bottom: 10%;
+    height: auto;
+    max-width: 100%;
+}
+
+.md100
+{
+    position:relative;
+    float:left;
+    size:100%
+}
+.md100{
+    position:relative;
+    float:left;
+    size:10%;
+}
+.imagem {
+    
+}
+
+
+
+
+/* body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+    color: #3B86FF;
+    margin: 40px;
+    background-color: #F5F5F5;
+    max-width: 960px;
+}
+
+.container {
+    display:inline-block;
+    margin: 4px;
+}
+
+
+.fundo1 {
+    fill: true;
+    top: 0;
+    position: relative;
+    width: 800px;
+    height: auto;
+    background: no-repeat center;
+    background-size: cover; 
+}
+
+.fundo1 img {
+    vertical-align: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: none;
+    max-height: 450px;
+    width: auto;
+    height: auto;
+}
+.img2 {
+    width: 40%;
+    height: 200px;
+    text-align: right;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    float: left;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.img3 {
+    width: auto;
+    height: 200px;
+    text-align: right;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    float: right;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.img4 {
+    width: auto;
+    height: 200px;
+    text-align: right;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    float: right;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
